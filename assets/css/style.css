@@ -17,7 +17,12 @@ html {
 }
 
 * {
-	font-family: 'Work Sans', sans-serif;
+	font-family: "Poppins", sans-serif;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(../NuptialLiberty.ttf);
 }
 
 body.transition {
@@ -102,7 +107,7 @@ body.transition {
 }
 
 .huruf-sambung {
-	font-family: 'Sacramento', cursive;
+	font-family: myFont;
 }
 
 .nav {
@@ -255,7 +260,7 @@ body.transition {
 }
 
 .btn-blue {
-	font-family: sans-serif;
+	font-family: "Poppins", sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 14px;
